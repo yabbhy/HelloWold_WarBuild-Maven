@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [Regression Suite]">
+  <test thread-count="5" verbose="2" name="WebApplications Function Test(failed)">
+    <classes>
+      <class name="toolsQA.tests.InteractionsPageTests">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="setup"/>
+          <include name="testSelectable"/>
+          <include name="testDroppable"/>
+        </methods>
+      </class> <!-- toolsQA.tests.InteractionsPageTests -->
+      <class name="toolsQA.tests.DemoExtentReport">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="TestCase002"/>
+          <include name="TestCase003"/>
+          <include name="beforeMethod"/>
+          <include name="TestCase004"/>
+          <include name="endReport"/>
+          <include name="Testcase01"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- toolsQA.tests.DemoExtentReport -->
+      <class name="toolsQA.tests.ElementsPageTests">
+        <methods>
+          <include name="validateTitle"/>
+          <include name="tearDownBrowser"/>
+        </methods>
+      </class> <!-- toolsQA.tests.ElementsPageTests -->
+      <class name="toolsQA.tests.WidgetsPageTests">
+        <methods>
+          <include name="testSelectMenu"/>
+          <include name="closeBrowser"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- toolsQA.tests.WidgetsPageTests -->
+      <class name="toolsQA.tests.AlertsFrameWindowsTests">
+        <methods>
+          <include name="testAlert"/>
+          <include name="testTimerAlerts"/>
+          <include name="testFrames"/>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- toolsQA.tests.AlertsFrameWindowsTests -->
+      <class name="toolsQA.tests.FormsPageTests">
+        <methods>
+          <include name="testForm"/>
+          <include name="Initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- toolsQA.tests.FormsPageTests -->
+    </classes>
+  </test> <!-- WebApplications Function Test(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

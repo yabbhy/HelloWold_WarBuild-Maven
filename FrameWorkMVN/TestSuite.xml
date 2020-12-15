@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression Suite" verbose="2">
+
+	<test name="WebApplications Function Test">
+		<classes>
+			<class name="toolsQA.tests.AlertsFrameWindowsTests">
+			</class>
+			<class name="toolsQA.tests.ElementsPageTests">
+			</class>
+			<class name="toolsQA.tests.FormsPageTests">
+			</class>
+			<class name="toolsQA.tests.InteractionsPageTests">
+			</class>
+			<class name="toolsQA.tests.WidgetsPageTests">
+			</class>
+			<class name="toolsQA.tests.DemoExtentReport">
+			</class>
+			<class name="toolsQA.tests.ExtentReportsDemo">
+			</class>
+		</classes>
+
+	</test>
+</suite>
